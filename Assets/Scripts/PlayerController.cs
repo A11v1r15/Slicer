@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (this.transform.position.x < -20f ||  this.transform.position.y < -20f )
+		{
+			GameObject.Find ("Canvas").transform.GetChild (0).gameObject.SetActive (true);
+		}
 	}
 
 	void OnMouseDown () {
