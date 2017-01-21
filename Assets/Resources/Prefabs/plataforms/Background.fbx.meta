@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 8003100daeb09af43bebf867e3353b9a
+timeCreated: 1485034511
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arbre Automne
+    100002: Arbre Automne.001
+    100004: Arbre Automne.002
+    100006: Arbre Automne.003
+    100008: Arbre Automne.004
+    100010: Arbre Automne.005
+    100012: Arbre Automne.006
+    100014: Arbre Automne.007
+    100016: Arbre Automne.008
+    100018: Arbre Automne.009
+    100020: Arbre Automne.011
+    100022: //RootNode
+    100024: caillou1
+    100026: caillou1.001
+    100028: caillou1.002
+    100030: caillou1.003
+    100032: caillou1.004
+    100034: caillou1.005
+    100036: caillou2
+    100038: caillou2.001
+    100040: caillou2.002
+    100042: caillou2.003
+    100044: caillou2.004
+    100046: caillou2.005
+    100048: Caillou3
+    100050: Caillou3.001
+    100052: Caillou3.002
+    100054: Cilindro
+    100056: Cilindro.001
+    100058: Cilindro.002
+    100060: Cilindro.003
+    100062: Cilindro.004
+    100064: Cilindro.005
+    100066: Cilindro.006
+    100068: Cilindro.007
+    100070: Cilindro.008
+    100072: Cilindro.009
+    100074: Cilindro.010
+    100076: Cilindro.011
+    100078: Cilindro.012
+    100080: Cilindro.013
+    100082: Cilindro.014
+    100084: Cilindro.015
+    100086: Cilindro.016
+    100088: Cilindro.017
+    100090: Cone
+    100092: Cone.001
+    100094: Cone.002
+    100096: Cone.003
+    100098: Cone.004
+    100100: Cone.005
+    100102: Cone.006
+    100104: Cone.007
+    100106: Cone.008
+    100108: Cone.009
+    100110: Cone.010
+    100112: Cone.011
+    100114: Cone.012
+    100116: Cone.013
+    100118: Cone.014
+    100120: Cone.015
+    100122: Cone.016
+    100124: Cone.017
+    100126: Cone.018
+    100128: Cone.019
+    100130: Cone.020
+    100132: Cone.021
+    100134: Cone.022
+    100136: Cone.023
+    100138: Cone.024
+    100140: Cone.025
+    100142: Cone.026
+    100144: Cone.027
+    100146: Cone.028
+    100148: Cone.029
+    100150: Cone.030
+    100152: Cone.031
+    100154: Cone.032
+    100156: Cone.033
+    100158: Cone.034
+    100160: Cone.035
+    100162: Cone.036
+    100164: Cone.037
+    100166: Cone.038
+    100168: Cone.039
+    100170: Cone.040
+    100172: Cone.041
+    100174: Cone.042
+    100176: Cone.043
+    100178: Cone.044
+    100180: Cone.045
+    100182: Cone.046
+    100184: Cone.047
+    100186: Cone.048
+    100188: Cone.049
+    100190: Cone.050
+    100192: Cone.051
+    100194: Cube.006
+    100196: Cube.008
+    100198: Cube.010
+    100200: Cube.011
+    100202: Cube.012
+    100204: Cube.013
+    100206: Cube.014
+    100208: Cube.015
+    100210: Cube.016
+    100212: Cube.017
+    100214: Cube.018
+    100216: Cube.019
+    100218: Cube.020
+    100220: Cube.021
+    100222: Cube.022
+    100224: Cube.023
+    100226: Cube.024
+    100228: Cube.025
+    100230: Cube.026
+    100232: Cube.028
+    100234: Cube.053
+    100236: Cube.060
+    100238: Cube.085
+    100240: Cube.104
+    100242: Cube.130
+    100244: Cube.141
+    100246: Cube.148
+    100248: Cube.166
+    100250: Cube.184
+    100252: Cube.193
+    100254: Cube.202
+    100256: Cubo
+    100258: Cylinder
+    100260: Cylinder.001
+    100262: Cylinder.002
+    100264: Cylinder.003
+    100266: Cylinder.004
+    100268: Cylinder.005
+    100270: Cylinder.006
+    100272: Cylinder.007
+    100274: Cylinder.008
+    100276: Cylinder.009
+    100278: Cylinder.010
+    100280: Cylinder.011
+    100282: Cylinder.012
+    100284: Cylinder.013
+    100286: Cylinder.014
+    100288: Cylinder.015
+    100290: Cylinder.016
+    100292: Cylinder.017
+    100294: Cylinder.018
+    100296: Cylinder.019
+    100298: Cylinder.020
+    100300: Cylinder.021
+    100302: Cylinder.022
+    100304: Cylinder.023
+    100306: Cylinder.024
+    100308: Cylinder.025
+    100310: Cylinder.026
+    100312: Cylinder.027
+    100314: Cylinder.028
+    100316: Cylinder.029
+    100318: Cylinder.030
+    100320: Cylinder.031
+    100322: Cylinder.032
+    100324: Cylinder.033
+    100326: Cylinder.034
+    100328: "Esfera icosa\xE9drica"
+    100330: "Esfera icosa\xE9drica.001"
+    100332: "Esfera icosa\xE9drica.002"
+    100334: "Esfera icosa\xE9drica.003"
+    100336: "Esfera icosa\xE9drica.004"
+    100338: "Esfera icosa\xE9drica.005"
+    100340: "Esfera icosa\xE9drica.006"
+    100342: "Esfera icosa\xE9drica.007"
+    100344: "Esfera icosa\xE9drica.008"
+    100346: "Esfera icosa\xE9drica.009"
+    100348: "Esfera icosa\xE9drica.010"
+    100350: "Esfera icosa\xE9drica.011"
+    100352: "Esfera icosa\xE9drica.012"
+    100354: "Esfera icosa\xE9drica.013"
+    100356: "Esfera icosa\xE9drica.014"
+    100358: "Esfera icosa\xE9drica.015"
+    100360: "Esfera icosa\xE9drica.016"
+    100362: "Esfera icosa\xE9drica.017"
+    100364: "Esfera icosa\xE9drica.018"
+    100366: "Esfera icosa\xE9drica.019"
+    100368: "Esfera icosa\xE9drica.020"
+    100370: "Esfera icosa\xE9drica.021"
+    100372: "Esfera icosa\xE9drica.022"
+    100374: "Esfera icosa\xE9drica.023"
+    100376: "Esfera icosa\xE9drica.024"
+    100378: "Esfera icosa\xE9drica.025"
+    100380: "Esfera icosa\xE9drica.026"
+    100382: "Esfera icosa\xE9drica.027"
+    100384: "Esfera icosa\xE9drica.028"
+    100386: "Esfera icosa\xE9drica.029"
+    400000: Arbre Automne
+    400002: Arbre Automne.001
+    400004: Arbre Automne.002
+    400006: Arbre Automne.003
+    400008: Arbre Automne.004
+    400010: Arbre Automne.005
+    400012: Arbre Automne.006
+    400014: Arbre Automne.007
+    400016: Arbre Automne.008
+    400018: Arbre Automne.009
+    400020: Arbre Automne.011
+    400022: //RootNode
+    400024: caillou1
+    400026: caillou1.001
+    400028: caillou1.002
+    400030: caillou1.003
+    400032: caillou1.004
+    400034: caillou1.005
+    400036: caillou2
+    400038: caillou2.001
+    400040: caillou2.002
+    400042: caillou2.003
+    400044: caillou2.004
+    400046: caillou2.005
+    400048: Caillou3
+    400050: Caillou3.001
+    400052: Caillou3.002
+    400054: Cilindro
+    400056: Cilindro.001
+    400058: Cilindro.002
+    400060: Cilindro.003
+    400062: Cilindro.004
+    400064: Cilindro.005
+    400066: Cilindro.006
+    400068: Cilindro.007
+    400070: Cilindro.008
+    400072: Cilindro.009
+    400074: Cilindro.010
+    400076: Cilindro.011
+    400078: Cilindro.012
+    400080: Cilindro.013
+    400082: Cilindro.014
+    400084: Cilindro.015
+    400086: Cilindro.016
+    400088: Cilindro.017
+    400090: Cone
+    400092: Cone.001
+    400094: Cone.002
+    400096: Cone.003
+    400098: Cone.004
+    400100: Cone.005
+    400102: Cone.006
+    400104: Cone.007
+    400106: Cone.008
+    400108: Cone.009
+    400110: Cone.010
+    400112: Cone.011
+    400114: Cone.012
+    400116: Cone.013
+    400118: Cone.014
+    400120: Cone.015
+    400122: Cone.016
+    400124: Cone.017
+    400126: Cone.018
+    400128: Cone.019
+    400130: Cone.020
+    400132: Cone.021
+    400134: Cone.022
+    400136: Cone.023
+    400138: Cone.024
+    400140: Cone.025
+    400142: Cone.026
+    400144: Cone.027
+    400146: Cone.028
+    400148: Cone.029
+    400150: Cone.030
+    400152: Cone.031
+    400154: Cone.032
+    400156: Cone.033
+    400158: Cone.034
+    400160: Cone.035
+    400162: Cone.036
+    400164: Cone.037
+    400166: Cone.038
+    400168: Cone.039
+    400170: Cone.040
+    400172: Cone.041
+    400174: Cone.042
+    400176: Cone.043
+    400178: Cone.044
+    400180: Cone.045
+    400182: Cone.046
+    400184: Cone.047
+    400186: Cone.048
+    400188: Cone.049
+    400190: Cone.050
+    400192: Cone.051
+    400194: Cube.006
+    400196: Cube.008
+    400198: Cube.010
+    400200: Cube.011
+    400202: Cube.012
+    400204: Cube.013
+    400206: Cube.014
+    400208: Cube.015
+    400210: Cube.016
+    400212: Cube.017
+    400214: Cube.018
+    400216: Cube.019
+    400218: Cube.020
+    400220: Cube.021
+    400222: Cube.022
+    400224: Cube.023
+    400226: Cube.024
+    400228: Cube.025
+    400230: Cube.026
+    400232: Cube.028
+    400234: Cube.053
+    400236: Cube.060
+    400238: Cube.085
+    400240: Cube.104
+    400242: Cube.130
+    400244: Cube.141
+    400246: Cube.148
+    400248: Cube.166
+    400250: Cube.184
+    400252: Cube.193
+    400254: Cube.202
+    400256: Cubo
+    400258: Cylinder
+    400260: Cylinder.001
+    400262: Cylinder.002
+    400264: Cylinder.003
+    400266: Cylinder.004
+    400268: Cylinder.005
+    400270: Cylinder.006
+    400272: Cylinder.007
+    400274: Cylinder.008
+    400276: Cylinder.009
+    400278: Cylinder.010
+    400280: Cylinder.011
+    400282: Cylinder.012
+    400284: Cylinder.013
+    400286: Cylinder.014
+    400288: Cylinder.015
+    400290: Cylinder.016
+    400292: Cylinder.017
+    400294: Cylinder.018
+    400296: Cylinder.019
+    400298: Cylinder.020
+    400300: Cylinder.021
+    400302: Cylinder.022
+    400304: Cylinder.023
+    400306: Cylinder.024
+    400308: Cylinder.025
+    400310: Cylinder.026
+    400312: Cylinder.027
+    400314: Cylinder.028
+    400316: Cylinder.029
+    400318: Cylinder.030
+    400320: Cylinder.031
+    400322: Cylinder.032
+    400324: Cylinder.033
+    400326: Cylinder.034
+    400328: "Esfera icosa\xE9drica"
+    400330: "Esfera icosa\xE9drica.001"
+    400332: "Esfera icosa\xE9drica.002"
+    400334: "Esfera icosa\xE9drica.003"
+    400336: "Esfera icosa\xE9drica.004"
+    400338: "Esfera icosa\xE9drica.005"
+    400340: "Esfera icosa\xE9drica.006"
+    400342: "Esfera icosa\xE9drica.007"
+    400344: "Esfera icosa\xE9drica.008"
+    400346: "Esfera icosa\xE9drica.009"
+    400348: "Esfera icosa\xE9drica.010"
+    400350: "Esfera icosa\xE9drica.011"
+    400352: "Esfera icosa\xE9drica.012"
+    400354: "Esfera icosa\xE9drica.013"
+    400356: "Esfera icosa\xE9drica.014"
+    400358: "Esfera icosa\xE9drica.015"
+    400360: "Esfera icosa\xE9drica.016"
+    400362: "Esfera icosa\xE9drica.017"
+    400364: "Esfera icosa\xE9drica.018"
+    400366: "Esfera icosa\xE9drica.019"
+    400368: "Esfera icosa\xE9drica.020"
+    400370: "Esfera icosa\xE9drica.021"
+    400372: "Esfera icosa\xE9drica.022"
+    400374: "Esfera icosa\xE9drica.023"
+    400376: "Esfera icosa\xE9drica.024"
+    400378: "Esfera icosa\xE9drica.025"
+    400380: "Esfera icosa\xE9drica.026"
+    400382: "Esfera icosa\xE9drica.027"
+    400384: "Esfera icosa\xE9drica.028"
+    400386: "Esfera icosa\xE9drica.029"
+    2300000: Arbre Automne
+    2300002: Arbre Automne.001
+    2300004: Arbre Automne.002
+    2300006: Arbre Automne.003
+    2300008: Arbre Automne.004
+    2300010: Arbre Automne.005
+    2300012: Arbre Automne.006
+    2300014: Arbre Automne.007
+    2300016: Arbre Automne.008
+    2300018: Arbre Automne.009
+    2300020: Arbre Automne.011
+    2300022: caillou1
+    2300024: caillou1.001
+    2300026: caillou1.002
+    2300028: caillou1.003
+    2300030: caillou1.004
+    2300032: caillou1.005
+    2300034: caillou2
+    2300036: caillou2.001
+    2300038: caillou2.002
+    2300040: caillou2.003
+    2300042: caillou2.004
+    2300044: caillou2.005
+    2300046: Caillou3
+    2300048: Caillou3.001
+    2300050: Caillou3.002
+    2300052: Cilindro
+    2300054: Cilindro.001
+    2300056: Cilindro.002
+    2300058: Cilindro.003
+    2300060: Cilindro.004
+    2300062: Cilindro.005
+    2300064: Cilindro.006
+    2300066: Cilindro.007
+    2300068: Cilindro.008
+    2300070: Cilindro.009
+    2300072: Cilindro.010
+    2300074: Cilindro.011
+    2300076: Cilindro.012
+    2300078: Cilindro.013
+    2300080: Cilindro.014
+    2300082: Cilindro.015
+    2300084: Cilindro.016
+    2300086: Cilindro.017
+    2300088: Cone
+    2300090: Cone.001
+    2300092: Cone.002
+    2300094: Cone.003
+    2300096: Cone.004
+    2300098: Cone.005
+    2300100: Cone.006
+    2300102: Cone.007
+    2300104: Cone.008
+    2300106: Cone.009
+    2300108: Cone.010
+    2300110: Cone.011
+    2300112: Cone.012
+    2300114: Cone.013
+    2300116: Cone.014
+    2300118: Cone.015
+    2300120: Cone.016
+    2300122: Cone.017
+    2300124: Cone.018
+    2300126: Cone.019
+    2300128: Cone.020
+    2300130: Cone.021
+    2300132: Cone.022
+    2300134: Cone.023
+    2300136: Cone.024
+    2300138: Cone.025
+    2300140: Cone.026
+    2300142: Cone.027
+    2300144: Cone.028
+    2300146: Cone.029
+    2300148: Cone.030
+    2300150: Cone.031
+    2300152: Cone.032
+    2300154: Cone.033
+    2300156: Cone.034
+    2300158: Cone.035
+    2300160: Cone.036
+    2300162: Cone.037
+    2300164: Cone.038
+    2300166: Cone.039
+    2300168: Cone.040
+    2300170: Cone.041
+    2300172: Cone.042
+    2300174: Cone.043
+    2300176: Cone.044
+    2300178: Cone.045
+    2300180: Cone.046
+    2300182: Cone.047
+    2300184: Cone.048
+    2300186: Cone.049
+    2300188: Cone.050
+    2300190: Cone.051
+    2300192: Cube.006
+    2300194: Cube.008
+    2300196: Cube.010
+    2300198: Cube.011
+    2300200: Cube.012
+    2300202: Cube.013
+    2300204: Cube.014
+    2300206: Cube.015
+    2300208: Cube.016
+    2300210: Cube.017
+    2300212: Cube.018
+    2300214: Cube.019
+    2300216: Cube.020
+    2300218: Cube.021
+    2300220: Cube.022
+    2300222: Cube.023
+    2300224: Cube.024
+    2300226: Cube.025
+    2300228: Cube.026
+    2300230: Cube.028
+    2300232: Cube.053
+    2300234: Cube.060
+    2300236: Cube.085
+    2300238: Cube.104
+    2300240: Cube.130
+    2300242: Cube.141
+    2300244: Cube.148
+    2300246: Cube.166
+    2300248: Cube.184
+    2300250: Cube.193
+    2300252: Cube.202
+    2300254: Cubo
+    2300256: Cylinder
+    2300258: Cylinder.001
+    2300260: Cylinder.002
+    2300262: Cylinder.003
+    2300264: Cylinder.004
+    2300266: Cylinder.005
+    2300268: Cylinder.006
+    2300270: Cylinder.007
+    2300272: Cylinder.008
+    2300274: Cylinder.009
+    2300276: Cylinder.010
+    2300278: Cylinder.011
+    2300280: Cylinder.012
+    2300282: Cylinder.013
+    2300284: Cylinder.014
+    2300286: Cylinder.015
+    2300288: Cylinder.016
+    2300290: Cylinder.017
+    2300292: Cylinder.018
+    2300294: Cylinder.019
+    2300296: Cylinder.020
+    2300298: Cylinder.021
+    2300300: Cylinder.022
+    2300302: Cylinder.023
+    2300304: Cylinder.024
+    2300306: Cylinder.025
+    2300308: Cylinder.026
+    2300310: Cylinder.027
+    2300312: Cylinder.028
+    2300314: Cylinder.029
+    2300316: Cylinder.030
+    2300318: Cylinder.031
+    2300320: Cylinder.032
+    2300322: Cylinder.033
+    2300324: Cylinder.034
+    2300326: "Esfera icosa\xE9drica"
+    2300328: "Esfera icosa\xE9drica.001"
+    2300330: "Esfera icosa\xE9drica.002"
+    2300332: "Esfera icosa\xE9drica.003"
+    2300334: "Esfera icosa\xE9drica.004"
+    2300336: "Esfera icosa\xE9drica.005"
+    2300338: "Esfera icosa\xE9drica.006"
+    2300340: "Esfera icosa\xE9drica.007"
+    2300342: "Esfera icosa\xE9drica.008"
+    2300344: "Esfera icosa\xE9drica.009"
+    2300346: "Esfera icosa\xE9drica.010"
+    2300348: "Esfera icosa\xE9drica.011"
+    2300350: "Esfera icosa\xE9drica.012"
+    2300352: "Esfera icosa\xE9drica.013"
+    2300354: "Esfera icosa\xE9drica.014"
+    2300356: "Esfera icosa\xE9drica.015"
+    2300358: "Esfera icosa\xE9drica.016"
+    2300360: "Esfera icosa\xE9drica.017"
+    2300362: "Esfera icosa\xE9drica.018"
+    2300364: "Esfera icosa\xE9drica.019"
+    2300366: "Esfera icosa\xE9drica.020"
+    2300368: "Esfera icosa\xE9drica.021"
+    2300370: "Esfera icosa\xE9drica.022"
+    2300372: "Esfera icosa\xE9drica.023"
+    2300374: "Esfera icosa\xE9drica.024"
+    2300376: "Esfera icosa\xE9drica.025"
+    2300378: "Esfera icosa\xE9drica.026"
+    2300380: "Esfera icosa\xE9drica.027"
+    2300382: "Esfera icosa\xE9drica.028"
+    2300384: "Esfera icosa\xE9drica.029"
+    3300000: Arbre Automne
+    3300002: Arbre Automne.001
+    3300004: Arbre Automne.002
+    3300006: Arbre Automne.003
+    3300008: Arbre Automne.004
+    3300010: Arbre Automne.005
+    3300012: Arbre Automne.006
+    3300014: Arbre Automne.007
+    3300016: Arbre Automne.008
+    3300018: Arbre Automne.009
+    3300020: Arbre Automne.011
+    3300022: caillou1
+    3300024: caillou1.001
+    3300026: caillou1.002
+    3300028: caillou1.003
+    3300030: caillou1.004
+    3300032: caillou1.005
+    3300034: caillou2
+    3300036: caillou2.001
+    3300038: caillou2.002
+    3300040: caillou2.003
+    3300042: caillou2.004
+    3300044: caillou2.005
+    3300046: Caillou3
+    3300048: Caillou3.001
+    3300050: Caillou3.002
+    3300052: Cilindro
+    3300054: Cilindro.001
+    3300056: Cilindro.002
+    3300058: Cilindro.003
+    3300060: Cilindro.004
+    3300062: Cilindro.005
+    3300064: Cilindro.006
+    3300066: Cilindro.007
+    3300068: Cilindro.008
+    3300070: Cilindro.009
+    3300072: Cilindro.010
+    3300074: Cilindro.011
+    3300076: Cilindro.012
+    3300078: Cilindro.013
+    3300080: Cilindro.014
+    3300082: Cilindro.015
+    3300084: Cilindro.016
+    3300086: Cilindro.017
+    3300088: Cone
+    3300090: Cone.001
+    3300092: Cone.002
+    3300094: Cone.003
+    3300096: Cone.004
+    3300098: Cone.005
+    3300100: Cone.006
+    3300102: Cone.007
+    3300104: Cone.008
+    3300106: Cone.009
+    3300108: Cone.010
+    3300110: Cone.011
+    3300112: Cone.012
+    3300114: Cone.013
+    3300116: Cone.014
+    3300118: Cone.015
+    3300120: Cone.016
+    3300122: Cone.017
+    3300124: Cone.018
+    3300126: Cone.019
+    3300128: Cone.020
+    3300130: Cone.021
+    3300132: Cone.022
+    3300134: Cone.023
+    3300136: Cone.024
+    3300138: Cone.025
+    3300140: Cone.026
+    3300142: Cone.027
+    3300144: Cone.028
+    3300146: Cone.029
+    3300148: Cone.030
+    3300150: Cone.031
+    3300152: Cone.032
+    3300154: Cone.033
+    3300156: Cone.034
+    3300158: Cone.035
+    3300160: Cone.036
+    3300162: Cone.037
+    3300164: Cone.038
+    3300166: Cone.039
+    3300168: Cone.040
+    3300170: Cone.041
+    3300172: Cone.042
+    3300174: Cone.043
+    3300176: Cone.044
+    3300178: Cone.045
+    3300180: Cone.046
+    3300182: Cone.047
+    3300184: Cone.048
+    3300186: Cone.049
+    3300188: Cone.050
+    3300190: Cone.051
+    3300192: Cube.006
+    3300194: Cube.008
+    3300196: Cube.010
+    3300198: Cube.011
+    3300200: Cube.012
+    3300202: Cube.013
+    3300204: Cube.014
+    3300206: Cube.015
+    3300208: Cube.016
+    3300210: Cube.017
+    3300212: Cube.018
+    3300214: Cube.019
+    3300216: Cube.020
+    3300218: Cube.021
+    3300220: Cube.022
+    3300222: Cube.023
+    3300224: Cube.024
+    3300226: Cube.025
+    3300228: Cube.026
+    3300230: Cube.028
+    3300232: Cube.053
+    3300234: Cube.060
+    3300236: Cube.085
+    3300238: Cube.104
+    3300240: Cube.130
+    3300242: Cube.141
+    3300244: Cube.148
+    3300246: Cube.166
+    3300248: Cube.184
+    3300250: Cube.193
+    3300252: Cube.202
+    3300254: Cubo
+    3300256: Cylinder
+    3300258: Cylinder.001
+    3300260: Cylinder.002
+    3300262: Cylinder.003
+    3300264: Cylinder.004
+    3300266: Cylinder.005
+    3300268: Cylinder.006
+    3300270: Cylinder.007
+    3300272: Cylinder.008
+    3300274: Cylinder.009
+    3300276: Cylinder.010
+    3300278: Cylinder.011
+    3300280: Cylinder.012
+    3300282: Cylinder.013
+    3300284: Cylinder.014
+    3300286: Cylinder.015
+    3300288: Cylinder.016
+    3300290: Cylinder.017
+    3300292: Cylinder.018
+    3300294: Cylinder.019
+    3300296: Cylinder.020
+    3300298: Cylinder.021
+    3300300: Cylinder.022
+    3300302: Cylinder.023
+    3300304: Cylinder.024
+    3300306: Cylinder.025
+    3300308: Cylinder.026
+    3300310: Cylinder.027
+    3300312: Cylinder.028
+    3300314: Cylinder.029
+    3300316: Cylinder.030
+    3300318: Cylinder.031
+    3300320: Cylinder.032
+    3300322: Cylinder.033
+    3300324: Cylinder.034
+    3300326: "Esfera icosa\xE9drica"
+    3300328: "Esfera icosa\xE9drica.001"
+    3300330: "Esfera icosa\xE9drica.002"
+    3300332: "Esfera icosa\xE9drica.003"
+    3300334: "Esfera icosa\xE9drica.004"
+    3300336: "Esfera icosa\xE9drica.005"
+    3300338: "Esfera icosa\xE9drica.006"
+    3300340: "Esfera icosa\xE9drica.007"
+    3300342: "Esfera icosa\xE9drica.008"
+    3300344: "Esfera icosa\xE9drica.009"
+    3300346: "Esfera icosa\xE9drica.010"
+    3300348: "Esfera icosa\xE9drica.011"
+    3300350: "Esfera icosa\xE9drica.012"
+    3300352: "Esfera icosa\xE9drica.013"
+    3300354: "Esfera icosa\xE9drica.014"
+    3300356: "Esfera icosa\xE9drica.015"
+    3300358: "Esfera icosa\xE9drica.016"
+    3300360: "Esfera icosa\xE9drica.017"
+    3300362: "Esfera icosa\xE9drica.018"
+    3300364: "Esfera icosa\xE9drica.019"
+    3300366: "Esfera icosa\xE9drica.020"
+    3300368: "Esfera icosa\xE9drica.021"
+    3300370: "Esfera icosa\xE9drica.022"
+    3300372: "Esfera icosa\xE9drica.023"
+    3300374: "Esfera icosa\xE9drica.024"
+    3300376: "Esfera icosa\xE9drica.025"
+    3300378: "Esfera icosa\xE9drica.026"
+    3300380: "Esfera icosa\xE9drica.027"
+    3300382: "Esfera icosa\xE9drica.028"
+    3300384: "Esfera icosa\xE9drica.029"
+    4300000: Arbre Automne.009
+    4300002: Arbre Automne.008
+    4300004: Arbre Automne.007
+    4300006: Arbre Automne.011
+    4300008: Arbre Automne.006
+    4300010: Arbre Automne.005
+    4300012: Arbre Automne.004
+    4300014: Arbre Automne.003
+    4300016: Arbre Automne.002
+    4300018: Arbre Automne.001
+    4300020: Cylinder.034
+    4300022: "Esfera icosa\xE9drica.029"
+    4300024: Cilindro.017
+    4300026: "Esfera icosa\xE9drica.028"
+    4300028: "Esfera icosa\xE9drica.027"
+    4300030: Cilindro.016
+    4300032: "Esfera icosa\xE9drica.026"
+    4300034: Cylinder.033
+    4300036: Cone.051
+    4300038: Cone.050
+    4300040: Cone.049
+    4300042: Cylinder.032
+    4300044: Cilindro.015
+    4300046: "Esfera icosa\xE9drica.025"
+    4300048: Cylinder.031
+    4300050: Cylinder.030
+    4300052: "Esfera icosa\xE9drica.024"
+    4300054: Cilindro.014
+    4300056: "Esfera icosa\xE9drica.023"
+    4300058: Cylinder.029
+    4300060: Cone.048
+    4300062: Cone.047
+    4300064: Cone.046
+    4300066: "Esfera icosa\xE9drica.022"
+    4300068: Cilindro.013
+    4300070: "Esfera icosa\xE9drica.021"
+    4300072: Cylinder.028
+    4300074: Cylinder.027
+    4300076: "Esfera icosa\xE9drica.020"
+    4300078: Cilindro.012
+    4300080: Cilindro.011
+    4300082: "Esfera icosa\xE9drica.019"
+    4300084: Cylinder.026
+    4300086: Cylinder.025
+    4300088: "Esfera icosa\xE9drica.018"
+    4300090: Cilindro.010
+    4300092: "Esfera icosa\xE9drica.017"
+    4300094: "Esfera icosa\xE9drica.016"
+    4300096: Cilindro.009
+    4300098: "Esfera icosa\xE9drica.015"
+    4300100: Cylinder.024
+    4300102: Cone.045
+    4300104: Cone.044
+    4300106: Cone.043
+    4300108: Cylinder.023
+    4300110: Cylinder.022
+    4300112: "Esfera icosa\xE9drica.014"
+    4300114: Cilindro.008
+    4300116: "Esfera icosa\xE9drica.013"
+    4300118: "Esfera icosa\xE9drica.012"
+    4300120: Cilindro.007
+    4300122: "Esfera icosa\xE9drica.011"
+    4300124: Cylinder.021
+    4300126: Cylinder.020
+    4300128: "Esfera icosa\xE9drica.010"
+    4300130: Cilindro.006
+    4300132: Cylinder.019
+    4300134: "Esfera icosa\xE9drica.009"
+    4300136: Cilindro.005
+    4300138: "Esfera icosa\xE9drica.008"
+    4300140: Cone.042
+    4300142: Cone.041
+    4300144: Cone.040
+    4300146: Cylinder.018
+    4300148: Cylinder.017
+    4300150: Cone.039
+    4300152: Cone.038
+    4300154: Cone.037
+    4300156: Cilindro.004
+    4300158: "Esfera icosa\xE9drica.007"
+    4300160: Cylinder.016
+    4300162: "Esfera icosa\xE9drica.006"
+    4300164: Cilindro.003
+    4300166: "Esfera icosa\xE9drica.005"
+    4300168: Cylinder.015
+    4300170: Cylinder.014
+    4300172: "Esfera icosa\xE9drica.004"
+    4300174: Cilindro.002
+    4300176: "Esfera icosa\xE9drica.002"
+    4300178: Cylinder.013
+    4300180: "Esfera icosa\xE9drica.003"
+    4300182: Cilindro.001
+    4300184: "Esfera icosa\xE9drica.001"
+    4300186: Cilindro
+    4300188: "Esfera icosa\xE9drica"
+    4300190: Cylinder.012
+    4300192: Cube.202
+    4300194: Cube.193
+    4300196: Cube.184
+    4300198: Cube.166
+    4300200: Cube.148
+    4300202: Cube.141
+    4300204: Cube.130
+    4300206: Cube.104
+    4300208: Cube.085
+    4300210: Cube.060
+    4300212: Cube.053
+    4300214: Cube.028
+    4300216: Cube.026
+    4300218: Cube.025
+    4300220: Cube.024
+    4300222: Cube.023
+    4300224: Cube.022
+    4300226: Cube.021
+    4300228: Cube.020
+    4300230: Cube.019
+    4300232: Cube.018
+    4300234: Cube.017
+    4300236: Cube.016
+    4300238: Cube.015
+    4300240: Cube.014
+    4300242: Cube.013
+    4300244: Cube.012
+    4300246: Cube.011
+    4300248: Cube.010
+    4300250: Cube.008
+    4300252: Cube.006
+    4300254: caillou2.005
+    4300256: caillou1.005
+    4300258: caillou2.004
+    4300260: caillou1.004
+    4300262: caillou2.003
+    4300264: Caillou3.002
+    4300266: caillou1.003
+    4300268: caillou1.002
+    4300270: Caillou3.001
+    4300272: caillou2.002
+    4300274: caillou1.001
+    4300276: caillou2.001
+    4300278: Cylinder.011
+    4300280: Cone.036
+    4300282: Cone.035
+    4300284: Cone.034
+    4300286: Cone.033
+    4300288: Cone.032
+    4300290: Cone.031
+    4300292: Cylinder.010
+    4300294: Cylinder.009
+    4300296: Cone.030
+    4300298: Cone.029
+    4300300: Cone.028
+    4300302: Cone.027
+    4300304: Cone.026
+    4300306: Cone.025
+    4300308: Cylinder.008
+    4300310: Cylinder.007
+    4300312: Cone.024
+    4300314: Cone.023
+    4300316: Cone.022
+    4300318: Cone.021
+    4300320: Cone.020
+    4300322: Cone.019
+    4300324: Cylinder.006
+    4300326: Cylinder.005
+    4300328: Cone.018
+    4300330: Cone.017
+    4300332: Cone.016
+    4300334: Cone.015
+    4300336: Cone.014
+    4300338: Cone.013
+    4300340: Cylinder.004
+    4300342: Cylinder.003
+    4300344: Cone.012
+    4300346: Cone.011
+    4300348: Cone.010
+    4300350: Cone.009
+    4300352: Cone.008
+    4300354: Cone.007
+    4300356: Cylinder.002
+    4300358: Cylinder.001
+    4300360: Cone.006
+    4300362: Cone.005
+    4300364: Cone.004
+    4300366: Cubo
+    4300368: Cone
+    4300370: Cone.001
+    4300372: Cone.002
+    4300374: Cone.003
+    4300376: Cylinder
+    4300378: caillou1
+    4300380: caillou2
+    4300382: Caillou3
+    4300384: Arbre Automne
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
