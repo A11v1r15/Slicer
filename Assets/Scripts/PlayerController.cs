@@ -24,7 +24,6 @@ public class PlayerController : MonoBehaviour {
 		if (Physics.Raycast(transform.position, -Vector3.up, 1.1f))
 		{
 			this.gameObject.GetComponent <Rigidbody>().velocity = Vector3.up*JumpSpeed;
-			//this.transform.Translate(0,JumpSpeed*Time.deltaTime,0,0);
 		}
 	}
 }

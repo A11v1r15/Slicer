@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlataformGenerator: MonoBehaviour {
 
@@ -18,6 +20,8 @@ public class PlataformGenerator: MonoBehaviour {
 	{
 		NewPlataform = Instantiate(Resources.Load("Prefabs/plataforms/Plat1") as GameObject,StartPlataformGenerator.position,Quaternion.identity) as GameObject;
 		Player = Instantiate(Resources.Load("Prefabs/characters/Player1") as GameObject,StartPlataformGenerator.position + new Vector3(0, 3f, 0),Quaternion.identity) as GameObject;
+		GameObject.Find ("Canvas").transform.GetChild (0).GetComponent<Button>().onClick = new Button.ButtonClickedEvent();
+		GameObject.Find ("Canvas").transform.GetChild (0).GetComponent<Button>().onClick.AddListener(() => Restart());
 	}
 	void Update()
 	{
@@ -50,11 +54,13 @@ public class PlataformGenerator: MonoBehaviour {
 			catch(MissingReferenceException){}
 	}
 
-
+	void Restart(){ //E eu vou te esperar...
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+	}
 
 	GameObject newPlataform()
 	{
-		return Resources.Load("Prefabs/plataforms/Plat"+random.Next(1,4).ToString()) as GameObject;
+		return Resources.Load("Prefabs/plataforms/Plat"+random.Next(1,5).ToString()) as GameObject;
 	}
 
 
