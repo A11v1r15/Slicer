@@ -4,8 +4,8 @@ using System.Collections;
 public class Cam : MonoBehaviour {
 	public Color color1 = new Color(0.168f,0.568f,0.945f,1);
 	public Color color2 = new Color(0.945f,0.568f,0.168f,1);
-	public int time;
-	public float t;
+	public static int time;
+	private float t;
 
 	Camera camera;
 

@@ -16,7 +16,7 @@ public class MonsterGenerator: MonoBehaviour {
 		while(true)
 		{
 			yield return new WaitForSeconds(0.4f); // wait
-			if(Mathf.Sin(Time.time) > 0){
+			if(Mathf.Sin(Time.time) > Mathf.Sin(Cam.time)){
 				LastMonster = Instantiate(Resources.Load("Prefabs/characters/Monster1") as GameObject, PlataformGenerator.EndPosition + new Vector3(0, 3f, 0),Quaternion.identity) as GameObject;
 			}
 		}

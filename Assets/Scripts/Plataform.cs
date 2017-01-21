@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Plataform : MonoBehaviour {
 	void Update (){
-		if (this.gameObject.GetComponent<Rigidbody> () != null && Mathf.Abs(this.gameObject.GetComponent <Rigidbody>().velocity.y) < 0.1f) {
+		if (this.gameObject.GetComponent<Rigidbody> () != null && this.gameObject.GetComponent <Rigidbody>().velocity.y == 0) {
 			this.gameObject.GetComponent <Rigidbody> ().velocity = Vector3.zero;
 		}
 	}
