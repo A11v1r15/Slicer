@@ -26,4 +26,12 @@ public class PlayerController : MonoBehaviour {
 			this.gameObject.GetComponent <Rigidbody>().velocity = Vector3.up*JumpSpeed;
 		}
 	}
+	
+	void OnCollisionEnter(Collision collision)
+ {
+     if( collision.gameObject.tag == "Monster" )
+     {
+         GameObject.Find ("Canvas").transform.GetChild (0).gameObject.SetActive (true);
+     }
+ }
 }
