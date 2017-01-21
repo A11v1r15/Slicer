@@ -192,6 +192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.945, g: 0.568, b: 0.168, a: 1}
   color2: {r: 0.168, g: 0.568, b: 0.945, a: 1}
+  time: 0
+  t: 0
 --- !u!1 &1730959571
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2037201279}
   - component: {fileID: 2037201278}
+  - component: {fileID: 2037201280}
   m_Layer: 0
   m_Name: God
   m_TagString: Untagged
@@ -311,7 +314,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPlataformGenerator: {fileID: 1730959572}
-  speed: 3
 --- !u!4 &2037201279
 Transform:
   m_ObjectHideFlags: 0
@@ -325,3 +327,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2037201280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2037201277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e83841ceff9bccb4a89954dc68f6275a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

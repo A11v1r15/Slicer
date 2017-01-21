@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 33367166519169824}
   - component: {fileID: 65179526993791940}
   - component: {fileID: 23121784495457252}
+  - component: {fileID: 114687705869136638}
   m_Layer: 0
   m_Name: Plat4
   m_TagString: Plataforma
@@ -121,3 +122,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114687705869136638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712195301175498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b41d5b7d5d64548b8ee6a243787735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

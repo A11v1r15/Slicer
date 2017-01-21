@@ -5,14 +5,13 @@ using System.Collections.Generic;
 public class PlataformGenerator: MonoBehaviour {
 
 	public Transform StartPlataformGenerator;
-	public float speed = 50f;
+	public static float speed = 3f;
 	GameObject NewPlataform;
 	GameObject Player;
-	GameObject LastMonster;
 	System.Random random = new System.Random();
 
 	int ChildCount;
-	Vector3 EndPosition;
+	public static Vector3 EndPosition;
 	Vector3 EndPosAdjust = new Vector3(1f,0,0);
 
 	void Start () 
@@ -41,29 +40,17 @@ public class PlataformGenerator: MonoBehaviour {
 				{
 					plataforma.transform.Translate(-speed*Time.deltaTime,0,0);
 
-				if ( plataforma.transform.position.x < -100f || plataforma.transform.position.y < -50f )
+				if ( plataforma.transform.position.x < -100f || plataforma.transform.position.y < -20f )
 					{
 						Destroy(plataforma);
-					}
-				} 
-
-			if(Mathf.Sin(Time.time) > 0){
-				LastMonster = Instantiate(Resources.Load("Prefabs/characters/Monster1") as GameObject,EndPosition + new Vector3(0, 3f, 0),Quaternion.identity) as GameObject;
-			}	
-
-				foreach (var monster in GameObject.FindGameObjectsWithTag("Monster"))
-				{
-					monster.transform.Translate(-speed*Time.deltaTime,0,0);
-
-					if ( monster.transform.position.x < -100f || monster.transform.position.y < -50f )
-					{
-						Destroy(monster);
 					}
 				} 
 
 			}
 			catch(MissingReferenceException){}
 	}
+
+
 
 	GameObject newPlataform()
 	{
