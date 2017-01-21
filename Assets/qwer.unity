@@ -190,9 +190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f49cd90c3539c41819756cacd2d1cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 1, g: 0, b: 0, a: 1}
-  color2: {r: 0, g: 0, b: 1, a: 1}
-  duration: 3
+  color1: {r: 0.945, g: 0.568, b: 0.168, a: 1}
+  color2: {r: 0.168, g: 0.568, b: 0.945, a: 1}
 --- !u!1 &1730959571
 GameObject:
   m_ObjectHideFlags: 0

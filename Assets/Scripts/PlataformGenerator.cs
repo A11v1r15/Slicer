@@ -8,6 +8,7 @@ public class PlataformGenerator: MonoBehaviour {
 	public float speed = 50f;
 	GameObject NewPlataform;
 	GameObject Player;
+	GameObject LastMonster;
 	System.Random random = new System.Random();
 
 	int ChildCount;
@@ -40,11 +41,26 @@ public class PlataformGenerator: MonoBehaviour {
 				{
 					plataforma.transform.Translate(-speed*Time.deltaTime,0,0);
 
-					if ( plataforma.transform.position.x < -100f )
+				if ( plataforma.transform.position.x < -100f || plataforma.transform.position.y < -50f )
 					{
 						Destroy(plataforma);
 					}
 				} 
+
+			if(Mathf.Sin(Time.time) > 0){
+				LastMonster = Instantiate(Resources.Load("Prefabs/characters/Monster1") as GameObject,EndPosition + new Vector3(0, 3f, 0),Quaternion.identity) as GameObject;
+			}	
+
+				foreach (var monster in GameObject.FindGameObjectsWithTag("Monster"))
+				{
+					monster.transform.Translate(-speed*Time.deltaTime,0,0);
+
+					if ( monster.transform.position.x < -100f || monster.transform.position.y < -50f )
+					{
+						Destroy(monster);
+					}
+				} 
+
 			}
 			catch(MissingReferenceException){}
 	}
