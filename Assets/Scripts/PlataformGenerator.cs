@@ -49,7 +49,11 @@ public class PlataformGenerator: MonoBehaviour {
 
 			} catch (MissingReferenceException) {
 			}
-		}
+		} else
+		foreach (var plataforma in GameObject.FindGameObjectsWithTag("Plataforma")) {
+					plataforma.gameObject.AddComponent<Rigidbody> ();
+					plataforma.gameObject.GetComponent<Rigidbody> ().freezeRotation = true;
+				}
 	}
 
 	void Restart(){ //E eu vou te esperar...

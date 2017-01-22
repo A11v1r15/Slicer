@@ -5,6 +5,7 @@ using UnityEngine;
 public class BtExit : MonoBehaviour {
 
 	void OnMouseDown () {
+		this.GetComponent<AudioSource> ().Play ();
 		Application.Quit ();
 	}
 }
