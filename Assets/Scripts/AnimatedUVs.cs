@@ -9,7 +9,7 @@ public class AnimatedUVs : MonoBehaviour {
 
 	Vector2 uvOffset = Vector2.zero;
 	void LateUpdate() {
-		if (!PlataformGenerator.GameOver.activeSelf) {
+		if (GameObject.Find ("Plane") != null || !PlataformGenerator.GameOver.activeSelf) {
 			uvOffset += (uvAnimationRate * Time.deltaTime);
 			if (GetComponent<Renderer> ().enabled) {
 				GetComponent<Renderer> ().materials [materialIndex].SetTextureOffset (textureName, uvOffset);
