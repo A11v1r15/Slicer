@@ -24,20 +24,21 @@ public class MonsterGenerator: MonoBehaviour {
 	
 	void Update()
 	{
-		try{	
+		if (!PlataformGenerator.GameOver.activeSelf) {
+			try {	
 
-			foreach (var monster in GameObject.FindGameObjectsWithTag("Monster"))
-			{
-				monster.transform.Translate(-PlataformGenerator.speed * Time.deltaTime * 1.25f , 0 , 0);
+				foreach (var monster in GameObject.FindGameObjectsWithTag("Monster")) {
+					monster.transform.Translate (-PlataformGenerator.speed * Time.deltaTime * 1.25f, 0, 0);
 
-				if ( monster.transform.position.x < -100f || monster.transform.position.y < -20f )
-				{
-					Destroy(monster);
-				}
-			} 
+					if (monster.transform.position.x < -100f || monster.transform.position.y < -20f) {
+						Destroy (monster);
+					}
+				} 
 
+			} catch (MissingReferenceException) {
+			}
+		} else {
+			StopCoroutine ("MyEvent");
 		}
-		catch(MissingReferenceException){}
 	}
-
 }

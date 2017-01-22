@@ -16,16 +16,17 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		if (this.transform.position.x < -30f ||  this.transform.position.y < -20f )
 		{
-			GameObject.Find ("Canvas").transform.GetChild (0).gameObject.SetActive (true);
+			PlataformGenerator.GameOver.SetActive (true);
 		}
 	}
 
 	void OnMouseDown () {
 		//Debug.Log ("Click!");
-		if (Physics.Raycast(transform.position, -Vector3.up, rayDistance))
-		{
-			this.gameObject.GetComponentsInChildren <Animator> ()[0].SetTrigger ("Jump");
-			this.gameObject.GetComponent <Rigidbody>().velocity = Vector3.up*JumpSpeed;
+		if (!PlataformGenerator.GameOver.activeSelf) {
+			if (Physics.Raycast (transform.position, -Vector3.up, rayDistance)) {
+				this.gameObject.GetComponentsInChildren <Animator> () [0].SetTrigger ("Jump");
+				this.gameObject.GetComponent <Rigidbody> ().velocity = Vector3.up * JumpSpeed;
+			}
 		}
 	}
 	

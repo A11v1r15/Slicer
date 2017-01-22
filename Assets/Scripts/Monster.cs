@@ -11,7 +11,9 @@ public class Monster : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.localScale = new Vector3(1f, 0.85f + Mathf.Sin (Time.time + this.transform.position.x) * 0.075f, 1f);
-		this.GetComponent<SphereCollider> ().radius = this.transform.localScale.y * 0.78f;
+		if (!PlataformGenerator.GameOver.activeSelf) {
+			this.transform.localScale = new Vector3 (1.15f - Mathf.Sin (Time.time + this.transform.position.x) * 0.075f, 0.85f + Mathf.Sin (Time.time + this.transform.position.x) * 0.075f, 1.15f - Mathf.Sin (Time.time + this.transform.position.x) * 0.075f);
+			this.GetComponent<SphereCollider> ().radius = this.transform.localScale.y * 0.78f;
+		}
 	}
 }
