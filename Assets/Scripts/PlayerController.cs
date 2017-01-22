@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour {
 		//Debug.Log ("Click!");
 		if (Physics.Raycast(transform.position, -Vector3.up, rayDistance))
 		{
+			this.gameObject.GetComponentsInChildren <Animator> ()[0].SetTrigger ("Jump");
 			this.gameObject.GetComponent <Rigidbody>().velocity = Vector3.up*JumpSpeed;
 		}
 	}

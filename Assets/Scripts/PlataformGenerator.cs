@@ -55,7 +55,7 @@ public class PlataformGenerator: MonoBehaviour {
 	}
 
 	void Restart(){ //E eu vou te esperar...
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+		SceneManager.LoadScene ("menu");
 	}
 
 	GameObject newPlataform()
