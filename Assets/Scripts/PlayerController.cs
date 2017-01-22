@@ -27,11 +27,10 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 	
-	void OnCollisionEnter(Collision collision)
- {
-     if( collision.gameObject.tag == "Monster" )
-     {
-         GameObject.Find ("Canvas").transform.GetChild (0).gameObject.SetActive (true);
-     }
- }
+//	void OnCollisionEnter(Collision collision) {
+//	     if( collision.gameObject.tag == "Monster" )
+//	     {
+//	         GameObject.Find ("Canvas").transform.GetChild (0).gameObject.SetActive (true);
+//	     }
+// 	}
 }
