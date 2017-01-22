@@ -35,7 +35,7 @@ public class PlataformGenerator: MonoBehaviour {
 						break;
 					}
 				}
-				if (EndPosition.x < 15f)
+				if (EndPosition.x < 30f)
 				{
 					NewPlataform = Instantiate(newPlataform(),EndPosition,Quaternion.identity) as GameObject;
 				}
