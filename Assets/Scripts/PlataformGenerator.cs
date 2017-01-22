@@ -19,7 +19,7 @@ public class PlataformGenerator: MonoBehaviour {
 	void Start () 
 	{
 		NewPlataform = Instantiate(Resources.Load("Prefabs/plataforms/Plat1") as GameObject,StartPlataformGenerator.position,Quaternion.identity) as GameObject;
-		Player = Instantiate(Resources.Load("Prefabs/characters/Player1") as GameObject,StartPlataformGenerator.position + new Vector3(0, 3f, 0),Quaternion.identity) as GameObject;
+		Player = Instantiate(Resources.Load("Prefabs/characters/Player1") as GameObject,StartPlataformGenerator.position + new Vector3(0, 5f, 0.5f),Quaternion.identity) as GameObject;
 		GameObject.Find ("Canvas").transform.GetChild (0).GetComponent<Button>().onClick = new Button.ButtonClickedEvent();
 		GameObject.Find ("Canvas").transform.GetChild (0).GetComponent<Button>().onClick.AddListener(() => Restart());
 	}
