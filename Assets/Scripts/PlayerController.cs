@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (this.transform.position.x < -30f ||  this.transform.position.y < -20f )
+		if (this.transform.position.x < -35f ||  this.transform.position.y < -20f )
 		{
 			GameObject.Find ("Main Camera").GetComponent<AudioSource> ().mute = true;
 			PlataformGenerator.GameOver.SetActive (true);
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 //	void OnCollisionEnter(Collision collision) {
 //	     if( collision.gameObject.tag == "Monster" )
 //	     {
-	//	         PlataformGenerator.GameOver.SetActive (true);
+//		         PlataformGenerator.GameOver.SetActive (true);
 //	     }
 // 	}
 }

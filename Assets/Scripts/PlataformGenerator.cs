@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class PlataformGenerator: MonoBehaviour {
 
@@ -42,7 +41,7 @@ public class PlataformGenerator: MonoBehaviour {
 				foreach (var plataforma in GameObject.FindGameObjectsWithTag("Plataforma")) {
 					plataforma.transform.Translate (-speed * Time.deltaTime, 0, 0);
 
-					if (plataforma.transform.position.x < -100f || plataforma.transform.position.y < -20f) {
+					if (plataforma.transform.position.x < -35f || plataforma.transform.position.y < -20f) {
 						Destroy (plataforma);
 					}
 				} 
@@ -51,8 +50,10 @@ public class PlataformGenerator: MonoBehaviour {
 			}
 		} else
 		foreach (var plataforma in GameObject.FindGameObjectsWithTag("Plataforma")) {
-					plataforma.gameObject.AddComponent<Rigidbody> ();
-					plataforma.gameObject.GetComponent<Rigidbody> ().freezeRotation = true;
+					if (this.gameObject.GetComponent<Rigidbody> () == null) {
+						plataforma.gameObject.AddComponent<Rigidbody> ();
+						plataforma.gameObject.GetComponent<Rigidbody> ().freezeRotation = true;
+					}
 				}
 	}
 

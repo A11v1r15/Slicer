@@ -11,7 +11,7 @@ public class MenuMonster : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		this.transform.localScale = new Vector3(0.65f - Mathf.Sin (Time.time + this.transform.position.x) * 0.075f, 0.35f + Mathf.Sin (Time.time + this.transform.position.x) * 0.075f, 0.65f  - Mathf.Sin (Time.time + this.transform.position.x) * 0.075f);
+		this.transform.localScale = new Vector3(0.55f - Mathf.Sin (Time.time + this.transform.position.x) * 0.025f, 0.45f + Mathf.Sin (Time.time + this.transform.position.x) * 0.025f, 0.55f  - Mathf.Sin (Time.time + this.transform.position.x) * 0.025f);
 		this.GetComponent<SphereCollider> ().radius = this.transform.localScale.y * 1.56f;
 	}
 }

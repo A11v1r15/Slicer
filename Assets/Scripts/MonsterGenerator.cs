@@ -30,7 +30,8 @@ public class MonsterGenerator: MonoBehaviour {
 				foreach (var monster in GameObject.FindGameObjectsWithTag("Monster")) {
 					monster.transform.Translate (-PlataformGenerator.speed * Time.deltaTime * 1.25f, 0, 0);
 
-					if (monster.transform.position.x < -100f || monster.transform.position.y < -20f) {
+					if (monster.transform.position.x < -35f || monster.transform.position.y < -20f) {
+						Score.died += 1;
 						Destroy (monster);
 					}
 				} 
