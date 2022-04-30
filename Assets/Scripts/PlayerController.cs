@@ -2,39 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
 
-	public float JumpSpeed = 10;
-	public float rayDistance = 2f; // distance center to ground
+    private Rigidbody rigidbody3D;
+    public float JumpSpeed = 5;
+    private bool goingDown = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (this.transform.position.x < -35f ||  this.transform.position.y < -20f )
-		{
-			GameObject.Find ("Main Camera").GetComponent<AudioSource> ().mute = true;
-			PlataformGenerator.GameOver.SetActive (true);
-		}
-	}
+    // Use this for initialization
+    void Start()
+    {
+        rigidbody3D = gameObject.GetComponentInChildren<Rigidbody>();
+    }
 
-	void OnMouseDown () {
-		//Debug.Log ("Click!");
-		if (!PlataformGenerator.GameOver.activeSelf) {
-			if (Physics.Raycast (transform.position, -Vector3.up, rayDistance)) {
-				this.gameObject.GetComponentsInChildren <Animator> () [0].SetTrigger ("Jump");
-				this.gameObject.GetComponent <Rigidbody> ().velocity = Vector3.up * JumpSpeed;
-			}
-		}
-	}
-	
-//	void OnCollisionEnter(Collision collision) {
-//	     if( collision.gameObject.tag == "Monster" )
-//	     {
-//		         PlataformGenerator.GameOver.SetActive (true);
-//	     }
-// 	}
+    // Update is called once per frame
+    void Update()
+    {
+        if (goingDown)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y - JumpSpeed * Time.deltaTime, transform.position.z);
+        }
+        else if(transform.position.y < 0f)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y + JumpSpeed * Time.deltaTime, transform.position.z);
+        }
+        if (transform.position.y < -3f)
+        {
+            GameObject.Find("Main Camera").GetComponent<AudioSource>().mute = true;
+            PlataformGenerator.GameOver.SetActive(true);
+        }
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("cliq");
+        if (!PlataformGenerator.GameOver.activeSelf)
+        {
+            goingDown = true;
+        }
+    }
+    void OnMouseUp()
+    {
+        if (!PlataformGenerator.GameOver.activeSelf)
+        {
+            goingDown = false;
+        }
+    }
 }
