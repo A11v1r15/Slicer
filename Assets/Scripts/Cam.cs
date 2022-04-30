@@ -20,7 +20,8 @@ public class Cam : MonoBehaviour {
 		if (t < 1)
 			camera.backgroundColor = Color.Lerp(color1, color2, t);
 		else
-			camera.backgroundColor = Color.Lerp(color2, color1, t-1f);	
+			camera.backgroundColor = Color.Lerp(color2, color1, t-1f);
+		RenderSettings.fogColor = camera.backgroundColor;
 		if (Input.GetKeyDown ("escape"))
 			Application.Quit ();
 
